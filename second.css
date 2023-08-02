@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main_nav_bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 98%;
+  height: 150px;
+  background-color: rgba(0, 0, 0, 0);
+  z-index: 999;
+}
+
+.main_nav_bar img {
+  height: 100px;
+  padding: 10px;
+}
+
+.butt_board {
+  margin: 5px;
+}
+
+.button {
+  padding: 12px 24px;
+  background-color: #0aa5ff;
+  color: #ffffff;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+  margin-top: 10px; /* Добавляем отступ сверху для кнопки */
+}
+
+.button:hover {
+  background-color: #0984d7; /* Изменение цвета при наведении на кнопку */
+}
+
+/* Обновленные стили для первого заголовка */
+.first_tagline {
+  font-family: "Borel", cursive;
+  font-family: "Inconsolata", monospace;
+  font-family: "Oswald", sans-serif;
+  font-family: "Quicksand", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+.second_fill {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse; /* Меняем порядок элементов: кнопка и текст */
+  gap: 20px;
+  font-family: "Borel", cursive;
+  font-family: "Inconsolata", monospace;
+  font-family: "Oswald", sans-serif;
+  font-family: "Quicksand", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+.main_Section {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  position: relative;
+}
