@@ -94,7 +94,19 @@
   position: absolute;
   top: 500px;
 }
+.enhance{
+  display: flex;
+  flex-wrap: wrap;
 
+
+}
+.enhance .text{
+  flex: 1 1 50%;
+}
+.enhance img{
+  height: 300px;
+  width: 500px;
+}
 .second_page {
   background-color: #073976;
   height: 100%;
@@ -114,34 +126,47 @@
   text-align: center;
 }
 
-.text_image .image img {
-  width: 800px;
-  height: auto;
-}
+
 .text_image {
   display: flex;
   justify-content: center;
-  margin: 100px auto 150px;
+
+
+  height: 700px;
+  position: relative;
+}
+
+.text_image .image img {
+  width: 600px;
+  height: 600px;
+}
+
+.text {
+  padding: 80px;
+
+  display: flex;
+  justify-content: center;
+  flex: 1 1 50%;
+
 }
 .text p {
   font-size: 30px;
   line-height: 1.4;
   writing-mode: horizontal;
+  
 }
 
-.text {
-  padding: 80px;
-  margin-left: 330px;
-}
 .image {
   height: 200px;
   margin-left: 100px;
   max-height: 50px;
+  flex: 1 1 50%;
 }
 
 .icons {
   display: flex;
   flex-direction: column;
+
 }
 
 .every_icon {
@@ -159,6 +184,7 @@
   color: #d7e3f9;
   font-size: 25px !important;
   text-align: center;
+  margin-top: 50px !important;
 }
 .text p {
   align-self: center;
@@ -200,10 +226,7 @@
   width: 100%;
 }
 
-.payment_page .first_tagline {
-  text-align: center;
-  padding-top: 50px;
-}
+
 
 .payment_page {
   background-color: #cee0f0;
@@ -211,10 +234,16 @@
   min-height: 100%;
   width: 100%;
 }
+.payment_page h1 {
+  text-align: center;
+  padding: 50px 0px;
+}
 
 .payment_page p {
   line-height: 1.6;
   text-align: center;
+  font-size: 20px;
+  padding: 25px 0px;
 }
 
 .every_icon {
