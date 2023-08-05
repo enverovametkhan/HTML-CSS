@@ -6,40 +6,217 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Main Page</title>
     <link rel="stylesheet" href="home_page.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
-    <div class="main_page">
+    <div class="home_page">
       <div class="left_bar">
         <img src="logo.png" alt="AI" />
-
         <nav class="menu">
           <ul>
-            <li><a>Home</a></li>
-            <li><a>Sprites</a></li>
-            <li><a>Samples</a></li>
-            <li><a>Workspace</a></li>
-            <li><a>Account</a></li>
-            <li><a>Help Center (Soon) </a></li>
-            <li><a>Support</a></li>
-            <li><a>Free plan</a></li>
+            <li>
+              <a class="gain-left">
+                <i class="fa-solid fa-house" style="padding-right: 10px"></i
+                ><span>Home</span>
+              </a>
+            </li>
+            <li>
+              <a class="gain-left">
+                <i class="fa-solid fa-brain" style="padding-right: 10px"></i
+                ><span>Sprites</span>
+              </a>
+            </li>
+            <li>
+              <a class="gain-left">
+                <i class="fa-solid fa-hippo" style="padding-right: 10px"></i
+                ><span>Samples</span>
+              </a>
+            </li>
+            <li>
+              <a class="gain-left">
+                <i class="fa-solid fa-flask" style="padding-right: 10px"></i
+                ><span>Workspace</span>
+              </a>
+            </li>
+            <li>
+              <a class="gain-left">
+                <i class="fa-solid fa-person" style="padding-right: 10px"></i
+                ><span>Account</span>
+              </a>
+            </li>
+            <li>
+              <a class="gain-left">
+                <i
+                  class="fa-solid fa-circle-exclamation"
+                  style="padding-right: 10px"
+                ></i
+                ><span>Help Center (Soon)</span>
+              </a>
+            </li>
+            <li>
+              <a class="gain-left">
+                <i class="fa-solid fa-comments" style="padding-right: 10px"></i
+                ><span>Support</span>
+              </a>
+            </li>
           </ul>
         </nav>
+        <div class="free_plan">
+          <p>
+            <i
+              class="fa-solid fa-heart fa-beat"
+              style="color: #f7020f"
+              style="padding-right: 20px"
+            ></i
+            >Free plan
+          </p>
+        </div>
       </div>
-      <div class="right_page">
-        <div class="top_bar">
-          <div class="dropdown">
-            <button class="dropbtn">Ametkhan</button>
-            <label class="credits">Credits: 10.000</label>
-            <div class="dropdown-content">
-              <a href="#">Create New Workspace</a>
+      <div class="main_page">
+        <div class="display">
+          <div class="top_bar">
+            <div class="dropdown">
+              <button class="dropbtn_underline">Ametkhan</button>
+              <div class="dropdown_content">
+                <a href="#">Create New Workspace</a>
+              </div>
+              <label class="credits">Credits: 10.000</label>
+            </div>
+            <div class="dropdown">
+              <button class="dropbtn">Ametkhan</button>
+              <div class="dropdown_content">
+                <a href="#">Logout</a>
+                <a href="#">View your Profile</a>
+              </div>
             </div>
           </div>
-          <div class="dropdown">
-            <button class="dropbtn">Ametkhan</button>
-            <div class="dropdown-content">
-              <a href="#">Logout</a>
-              <a href="#">View your Profile</a>
-            </div>
+          <div class="centered_content">
+            <h2>
+              <i class="fa-solid fa-house" style="padding-right: 30px"></i>Home
+            </h2>
+            <h1>
+              Welcome to your home dashboard of Ametkhan! <br />Here is a brief
+              explanation on how you can use the platform:
+            </h1>
+            <h3>Browsing Demo Sprites</h3>
+            <ul class="demo-sprites-list">
+              <li class="demo-sprites-item">
+                View our demo Sprites from <strong>"Samples"</strong> tab
+              </li>
+              <li class="demo-sprites-item">
+                Can copy them into your workspace, and they will appear under
+                <strong>"Sprites"</strong> tab
+              </li>
+              <li class="demo-sprites-item">
+                Then you can browse through their
+                <strong>"Knowledge Bases"</strong>,
+                <strong>"Workflows"</strong>, or even chat to them - be aware
+                those Sprites are for illustration and browsing purposes only
+              </li>
+            </ul>
+            <iframe
+              width="300"
+              height="300"
+              src="https://www.youtube.com/embed/DdWM2TbPxUM?si=9GuExK9B7ByvJTRc"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+            <h3>Creating Sprites</h3>
+            <ul class="demo-sprites-list">
+              <li class="demo-sprites-item">
+                In "Sprites" tab, click on "Add Sprite", choose a for your new
+                Sprite - it will then redirect you to Sprites configuration page
+              </li>
+              <li class="demo-sprites-item">
+                Create Knowledge Bases under
+                <strong>"Base Knowledge"</strong> tab
+              </li>
+              <li class="demo-sprites-item">
+                Create Workflows under <strong>"Workflows"</strong> tab
+              </li>
+              <li class="demo-sprites-item">
+                Chat and test your sprite under <strong>"Chat"</strong> tab
+              </li>
+              <li class="demo-sprites-item">
+                Activate your Sprite for everyone in the workspace under
+                <strong>"Deploy"</strong> tab
+              </li>
+              <li class="demo-sprites-item">
+                Make your sprite Public for anyone with internetunder
+                <strong>"Deploy"</strong>
+                tab
+              </li>
+              <li class="demo-sprites-item">
+                Add your sprite to your website under
+                <strong>"Deploy"</strong> tab
+              </li>
+              <li class="demo-sprites-item">
+                Change logo for your Sprite under
+                <strong>"Settings"</strong> tab - available to premium
+                workspaces only
+              </li>
+            </ul>
+            <iframe
+              width="300"
+              height="300"
+              src="https://www.youtube.com/embed/DdWM2TbPxUM?si=9GuExK9B7ByvJTRc"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+            <h3>Adding members to workspace</h3>
+            <ul class="demo-sprites-list">
+              <li class="demo-sprites-item">
+                In <strong>"Workspace" </strong> tab, click on "Members"
+              </li>
+              <li class="demo-sprites-item">
+                Make sure you have sufficient credits to add a new member. It
+                costs 30 SpriteAI Credits per new member per month
+              </li>
+              <li class="demo-sprites-item">
+                Type new member's email onto the field and click on "Add Email"
+              </li>
+              <li class="demo-sprites-item">
+                It will send an invitation email with furter instruction
+              </li>
+              <iframe
+                width="300"
+                height="300"
+                src="https://www.youtube.com/embed/DdWM2TbPxUM?si=9GuExK9B7ByvJTRc"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+              <h3>Permission levels</h3>
+              <ul class="demo-sprites-list">
+                <li class="demo-sprites-item">
+                  An "Owner" of the workplace has full access and rights to
+                  everything within a workspace
+                </li>
+                <li class="demo-sprites-item">
+                  An "Admin" of the workplace has the same access and rights as
+                  the "Owner" except Deleting Workspace or Sprites
+                </li>
+                <li class="demo-sprites-item">
+                  A "User" of the workplace can only chat to Sprites within a
+                  workspace
+                </li>
+              </ul>
+            </ul>
+            <h3>
+              If you require further assistance please reach out by clicking on
+              "Support" tab on the left side menu
+            </h3>
           </div>
         </div>
       </div>
