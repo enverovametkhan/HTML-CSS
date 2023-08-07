@@ -185,29 +185,29 @@
 }
 
 .samples_card_container {
-  width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  margin-top: 20px;
-  max-width: 1000px;
-  margin-left: 50px;
-  margin-right: auto;
+  justify-content: flex-start;
+
+  padding: 20px;
 }
 
 .samples_card {
-  width: calc(33.33% - 20px);
   border: 1px solid #ccc;
   padding: 20px;
-  margin-bottom: 20px;
   background-color: white;
-  display: flex;
-  flex-direction: column;
+
   align-items: center;
   justify-content: space-between;
   text-align: center;
   transition: box-shadow 0.3s;
   cursor: pointer;
+  align-items: center;
+  display: flex;
+  flex: 1 1 250px;
+  margin: 20px;
+  max-width: 300px;
+  flex-direction: column;
 }
 
 .samples_card:hover {
@@ -233,6 +233,7 @@
   cursor: pointer;
   border-radius: 4px;
   transition: background-color 0.3s;
+  margin-top: auto;
 }
 
 .button:hover {
