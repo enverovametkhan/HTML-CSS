@@ -1,0 +1,263 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.home_page {
+  display: flex;
+}
+
+.menu ul li a {
+  display: flex;
+  align-items: center;
+  color: #547de4;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 5px 0;
+  margin-right: 40px;
+}
+
+.gain-left {
+  display: inline-block;
+  transition: transform 0.3s ease-in-out;
+}
+
+.gain-left:hover {
+  transform: translateX(3px);
+}
+
+.gain-left span {
+  display: inline-block;
+  transition: transform 0.3s ease-in-out;
+}
+
+.gain-left:hover span {
+  transform: translateX(3px);
+}
+.left_bar {
+  background-color: #fff;
+  border-right: 1px solid #6cbafe;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 0;
+  width: 200px;
+}
+.menu {
+  margin-top: 30px;
+  border-bottom: 50px;
+}
+.left_bar img {
+  height: 95px;
+  margin-top: -15px;
+  width: 160px;
+  margin-left: 15%;
+}
+
+.left_bar ul {
+  list-style: none;
+  margin: 0 0 0 50px;
+  padding: 0;
+}
+
+.left_bar ul li {
+  margin-bottom: 20px;
+}
+
+.left_bar ul li a {
+  color: #616d8c;
+  display: flex;
+  font-weight: 600;
+}
+
+.free_plan {
+  bottom: 50px;
+  cursor: pointer;
+  display: flex;
+  left: 50px;
+  position: fixed;
+  color: green;
+}
+
+.main_page {
+  margin: 10;
+  width: 100%;
+}
+
+.display {
+  align-items: left;
+  background-color: #d4e8f9;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: left;
+  min-height: 100vh;
+  padding: 20px;
+  position: relative;
+}
+
+.top_bar {
+  align-items: center;
+  border-bottom: 1px solid #aed0ed;
+  display: flex;
+  justify-content: right;
+  margin-top: 0;
+  padding: 35px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+}
+
+.credits {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: green;
+  color: whitesmoke;
+  border-radius: 25px;
+  margin-left: 80px;
+  margin-right: 60px;
+  padding: 10px;
+}
+
+.dropbtn {
+  border: none;
+  background-color: transparent;
+  font-size: 20px;
+  padding: 15px 30px;
+}
+
+.dropdown {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.large_button {
+  font-size: 18px;
+  padding: 10px 20px;
+}
+
+.dropdown_content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown_content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  transition: background-color 0.3s;
+}
+
+.dropdown_content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown_content {
+  display: block;
+}
+
+.centered_content {
+  display: flex;
+  font-size: 18px;
+  height: 100%;
+  justify-self: flex-start;
+  margin-bottom: 40px;
+  margin-top: 100px;
+  text-align: center;
+  width: 100%;
+}
+
+.centered_content h2 {
+  font-size: 30px;
+  text-align: left;
+  margin: 20px 0;
+  line-height: 1.5;
+  font-weight: 100;
+}
+
+.account_container {
+  flex-direction: column;
+  font-size: 18px;
+  height: 100%;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+  margin-left: 70px;
+  text-align: left;
+  width: 60%;
+  line-height: 1.5;
+  margin-top: 10px;
+}
+.account {
+  margin-top: 50px;
+}
+.label {
+  color: black;
+  display: block;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.type {
+  box-sizing: border-box;
+  clear: both;
+  font-size: 1.2rem;
+  position: relative;
+  text-align: inherit;
+  line-height: 2;
+}
+
+.input {
+  box-sizing: border-box;
+  clear: both;
+  font-size: 1rem;
+  position: relative;
+  text-align: inherit;
+  line-height: 2;
+  width: 100%;
+}
+
+.save_field {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.button {
+  background-color: #00d1b2;
+  border-color: transparent;
+  color: #fff;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.open_button {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.open_button:hover {
+  background-color: darkblue;
+}
+
+.billing_field {
+  margin-top: 30px;
+}
+
+.portal_field {
+  margin-top: 10px;
+}
