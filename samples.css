@@ -9,19 +9,6 @@
   display: flex;
 }
 
-.left_bar {
-  background-color: #fff;
-  border-right: 1px solid #6cbafe;
-  display: flex;
-  flex-direction: column;
-  padding: 30px 0;
-  width: 200px;
-}
-.menu {
-  border-bottom: 50px;
-  margin-top: 30px;
-  flex-direction: column;
-}
 .menu ul li a {
   display: flex;
   align-items: center;
@@ -31,6 +18,7 @@
   padding: 5px 0;
   margin-right: 40px;
 }
+
 .gain-left {
   display: inline-block;
   transition: transform 0.3s ease-in-out;
@@ -48,21 +36,35 @@
 .gain-left:hover span {
   transform: translateX(3px);
 }
-
+.left_bar {
+  background-color: #fff;
+  border-right: 1px solid #6cbafe;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 0;
+  width: 200px;
+}
+.menu {
+  margin-top: 30px;
+  border-bottom: 50px;
+}
 .left_bar img {
   height: 95px;
-  margin-top: -20px;
+  margin-top: -15px;
   width: 160px;
   margin-left: 15%;
 }
+
 .left_bar ul {
   list-style: none;
   margin: 0 0 0 50px;
   padding: 0;
 }
+
 .left_bar ul li {
   margin-bottom: 20px;
 }
+
 .left_bar ul li a {
   color: #616d8c;
   display: flex;
@@ -82,6 +84,7 @@
   margin: 10;
   width: 100%;
 }
+
 .display {
   align-items: left;
   background-color: #d4e8f9;
@@ -106,6 +109,7 @@
   top: 0;
   width: 100%;
 }
+
 .credits {
   display: flex;
   align-items: center;
@@ -130,6 +134,7 @@
   align-items: center;
   margin-right: 20px;
 }
+
 .large_button {
   font-size: 18px;
   padding: 10px 20px;
@@ -169,10 +174,14 @@
   text-align: center;
   width: 100%;
 }
-.samples {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+
+.centered_content h2 {
+  font-size: 30px;
+  text-align: left;
+  margin: 20px 0;
+  line-height: 2;
+  font-weight: 100;
+  margin-left: 50px;
 }
 
 .samples_card_container {
@@ -181,6 +190,9 @@
   flex-wrap: wrap;
   justify-content: space-between;
   margin-top: 20px;
+  max-width: 1000px;
+  margin-left: 50px;
+  margin-right: auto;
 }
 
 .samples_card {
@@ -189,6 +201,17 @@
   padding: 20px;
   margin-bottom: 20px;
   background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  transition: box-shadow 0.3s;
+  cursor: pointer;
+}
+
+.samples_card:hover {
+  box-shadow: 0 12px 18px rgba(0, 0, 0, 0.1);
 }
 
 .samples_card img {
@@ -197,7 +220,7 @@
 
 .samples_card h3,
 .samples_card p {
-  margin: 0;
+  margin: 10px 0;
   padding: 0;
 }
 
