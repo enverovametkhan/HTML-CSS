@@ -188,9 +188,13 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-
-  padding: 20px;
 }
+
+.samples_card_container a {
+  color: black;
+  text-decoration: none;
+}
+
 .samples {
   margin-top: -20px;
 }
