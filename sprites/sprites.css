@@ -227,18 +227,67 @@
   padding: 0;
 }
 
-.button {
-  display: inline-block;
-  padding: 8px 16px;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
+.check_card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-color: white;
+
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  transition: box-shadow 0.3s;
   cursor: pointer;
-  border-radius: 4px;
-  transition: background-color 0.3s;
-  margin-top: auto;
+  align-items: center;
+  display: flex;
+  flex: 1 1 250px;
+  margin: 20px;
+  max-width: 300px;
+  flex-direction: column;
 }
 
-.button:hover {
+.check_card_content {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.card_button {
+  background-color: #00d1b2;
+  border-color: transparent;
+  color: #fff;
+}
+
+.centered_buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.samples_card {
+  position: relative;
+}
+.check_card p {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.card_button {
+  margin: 50px 0;
+  font-size: 18px;
+  padding: 15px 30px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.card_button:hover {
   background-color: #0056b3;
+  transform: scale(1.05);
 }
